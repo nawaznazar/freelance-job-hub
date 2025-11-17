@@ -1,0 +1,1 @@
+export default function EmptyState({title,hint}){return(<div className='grid place-items-center rounded-lg border border-dashed p-10 text-center text-muted-foreground'><div className='text-base font-medium'>{title}</div>{hint&&<div className='mt-1 text-sm'>{hint}</div>}</div>)}

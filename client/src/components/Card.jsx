@@ -1,0 +1,1 @@
+export default function Card({ title, children }){return (<div className='rounded-lg border border-border bg-card p-4'>{title&&<div className='mb-2 text-sm font-medium text-muted-foreground'>{title}</div>}{children}</div>)}
